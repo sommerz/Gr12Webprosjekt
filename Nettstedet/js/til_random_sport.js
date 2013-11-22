@@ -14,7 +14,6 @@ var aktivitetar=[];
 	aktivitetar[6]={navn:"bridge",url:"bridge.html"}
 	aktivitetar[7]={navn:"spotting",url:"planespotting.html"}
 
-alert ("No blir du heilt tilfeldig sendt til sida for "+aktivitetar[tilfeldigTall1].navn);
 window.location.href = aktivitetar[tilfeldigTall1].url;
 }
 //random GIF-funksjon ferdig
@@ -39,6 +38,5 @@ var tilfeldigBildeArrayNamnS = tilfeldigBildeArrayS[1];
 
 function tilfeldigSportLink(){
 	
-	alert ("No blir du derimot sendt til sida for den tilfeldige aktiviteten du ser bilde av (når riktig bilde er på plass), altså "+tilfeldigBildeArrayNamnS);
 	window.location.href = tilfeldigBildeArrayUrlS; // return-verdien, altså url-en
 }
